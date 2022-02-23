@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/****************VARIABLES COLORES************/
+/****************VARIABLES TIPOGRAFÍA*********/
+/*************ANIDAMIENTO***************/
+body {
+  background-image: linear-gradient(#aaa, white); }
+  body header .navbar {
+    background-color: #aaa;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; }
+    body header .navbar div li:hover {
+      background-color: #aaa; }
+
+li :hover {
+  background-color: antiquewhite;
+  transition: all 2s; }
+
+.conteinerParrafo {
+  margin: 5%;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.conteinerImgUno {
+  display: inline-flex;
+  margin: 0% 5% 5%; }
+  .conteinerImgUno img {
+    width: 50%; }
+
+/************section************/
+.form {
+  display: inline-block flex;
+  width: 580px;
+  margin: 3%; }
+
+.iframe {
+  margin-left: 26%; }
+
+.conteinerImgDos {
+  display: flex;
+  width: 50%; }
+
+.marca {
+  margin: 0% 30% 5% 30%; }
+
+.video {
+  width: 100%; }
+
+/***********footer*************/
+.footer-basic {
+  padding: 40px 0;
+  background-color: beige;
+  color: #4b4c4d; }
+  .footer-basic ul {
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0; }
+    .footer-basic ul:hover {
+      opacity: 1; }
+    .footer-basic ul li {
+      padding: 0 10px; }
+      .footer-basic ul li a {
+        color: inherit;
+        text-decoration: none;
+        opacity: 0.8; }
+
+.copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+  margin-bottom: 0; }
+
+/*************EXTEND*************/
+.conteinerParrafoS, .conteinerParrafo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 5%; }
+
+.conteinerParrafo {
+  text-align: center; }
+
+.asideContactos, .card {
+  display: inline-flex; }
+
+.card {
+  width: 18rem;
+  margin: 0% 5% 5% 5%; }
+
+.cont2, .cont {
+  display: block; }
+
+.cont {
+  width: 100%;
+  margin: 2%; }
